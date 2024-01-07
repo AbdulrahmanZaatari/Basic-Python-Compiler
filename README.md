@@ -1,37 +1,64 @@
-# Code Analysis and Error Checker 👩‍💻🔍
+# Basic Python Code Analyzer 🐍
 
-This Python script is designed to read code from files, analyze it, and check for various syntax and style errors. It provides functionalities to display the code, identify errors, count errors, and exit the file.
+## Introduction 🚀
 
-## Features 📝
+Welcome to the Basic Python Code Analyzer! This tool is designed to help you identify common errors and style issues in your Python code. It performs various checks and provides feedback to enhance your coding experience.
 
-- **readFromFile(file_name):** Reads code from a file and returns a list of lines.
-- **storeVariables(L):** Extracts and stores variables from the code.
-- **oneEqual(L, EL):** Identifies lines with a single equal sign, which might indicate assignment instead of equality check.
-- **floatError(L, EL):** Detects errors where commas are used instead of periods for floating-point numbers.
-- **multiplicationError(L, EL):** Flags the use of 'x' instead of '*' for multiplication.
-- **equalError(L, EL):** Checks for missing equal signs in assignments.
-- **printChecker(L, EL):** Notifies if the 'Print' statement is written with an uppercase 'P'.
-- **variableChecker(L, EL):** Identifies lines where variables are used without being defined.
-- **ifCondition(L, EL):** Flags 'if' statements missing a colon at the end.
-- ... and many more functions for different types of errors.
+## Features 🛠️
+
+1. **Display Code 👀:**
+   - View the content of the Python file.
+
+2. **Display Errors ❌:**
+   - Submenu options:
+     - **A. Display Error Count 🚨:**
+       - View the count of detected errors.
+     - **B. Return to Menu 🔄:**
+       - Return to the main menu.
+
+3. **Exit from File 📂:**
+   - Exit the current file and return to the main menu.
+
+## Error Checks 🚨
+
+The tool performs the following checks:
+
+- **Variable List 📋:**
+  - Displays the list of variables used in the file.
+
+- **Syntax and Style 🎨:**
+  - Checks for syntax and style issues such as missing or incorrect indentation.
+
+- **Variable Definition 🔄:**
+  - Verifies if variables are defined before use.
+
+- **Equality Check ⚖️:**
+  - Ensures correct usage of the equality operator.
+
+- **Keyword Usage 🚫:**
+  - Flags the usage of Python keywords as variable names.
+
+- **Error Count 🔢:**
+  - Provides the total count of detected errors.
 
 ## Usage 🚀
 
-1. Enter your name.
-2. The script reads and analyzes multiple code files (file1.txt, file2.txt, file3.txt, file4.txt).
-3. It allows you to display the code, display errors, count errors, and exit the file.
-4. Various error checks are performed, and detailed error messages are displayed.
+1. **Enter Your Name 🙋:**
+   - Start by entering your name.
 
-## Additional Tips 🤔
+2. **File Analysis 📊:**
+   - The tool analyzes multiple Python files (`file1.txt`, `file2.txt`, `file3.txt`, `file4.txt`).
 
-- Emphasis on code readability, with messages in curly braces.
-- Encouraging and motivational messages to the user.
-- Interactive menus to choose actions.
+3. **Display Options 📝:**
+   - Choose options to display code, check for errors, or exit.
 
-## How to Run 🏃‍♂️
+4. **Error Details 🚨:**
+   - If errors are detected, detailed information about each error is displayed, and you can choose to see the error count or return to the menu.
 
-Simply run the `main()` function.
+5. **Exit 🚪:**
+   - Exit the tool when you are done analyzing files.
 
-Follow the prompts to analyze and check errors in the provided code files.
+## Note 📌
 
-Feel free to contribute or customize the script according to your needs! Happy coding! 🚀👨‍💻
+This is a basic code analyzer and may not cover all possible cases. It serves as a learning tool to help users identify and correct common Python coding issues. Use the feedback to improve your coding skills and produce cleaner code. Happy coding! 🎉
+
